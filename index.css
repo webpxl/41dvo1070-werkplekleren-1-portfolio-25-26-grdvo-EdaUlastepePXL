@@ -13,10 +13,48 @@ h1{
     font-family: 'Chango', cursive;
     display: flex;
     justify-content: center;
+    padding-top: 200px;
 }
 
 p{
     font-family: 'Chelsea Market', sans-serif;
     display: flex;
     justify-content: center;
+    padding: 15px;
+}
+
+.top-nav {
+    background-color: #96c1c5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 28px;
+    z-index: 1000;
+
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    font-family: 'Chelsea Market', sans-serif; /* or any font you choose */
+    font-size: 1.2rem;
+    color: #694a47;
+    background-color: #f0eee9;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.top-nav a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: #e3d5d2;
 }
