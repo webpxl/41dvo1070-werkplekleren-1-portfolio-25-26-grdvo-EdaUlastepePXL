@@ -13,14 +13,22 @@ h1{
     font-family: 'Chango', cursive;
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    padding-top: 210px;
 }
 
 p{
     font-family: 'Chelsea Market', sans-serif;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     padding: 15px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+
 }
 
 .top-nav {
@@ -45,16 +53,76 @@ p{
 
 .top-nav a {
     text-decoration: none;
-    font-family: 'Chelsea Market', sans-serif; /* or any font you choose */
-    font-size: 1.2rem;
+    font-family: 'Chelsea Market', sans-serif;
     color: #694a47;
     background-color: #f0eee9;
-    border-radius: 25px;
-    padding: 5px 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
 .top-nav a:hover {
     opacity: 0.7;
     cursor: pointer;
-    background-color: #e3d5d2;
+    background-color: #e0d4c3;
+    transform: translateY(-2px);
+}
+
+.projects-section {
+    background-color: #5c4033;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Chango', cursive;
+}
+
+.projects-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: 'Chelsea Market', sans-serif;
+}
+
+.projects-section {
+    background-color: #5c4033;
+    color: #ffffff;
+    padding: 80px 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.project-block {
+    flex: 1;
+    min-width: 600px;
+    background-color: #6e4c3e;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.project-block h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-family: 'Chango', cursive;
+}
+
+.project-block p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: 'Cormorant Garamond', serif;
+
 }
