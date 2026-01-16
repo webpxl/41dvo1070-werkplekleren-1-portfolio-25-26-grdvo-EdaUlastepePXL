@@ -11,8 +11,12 @@ body {
 
 h1{
     font-family: 'Chango', cursive;
+    display: flex;
+    justify-content: center;
 }
 
 p{
     font-family: 'Chelsea Market', sans-serif;
+    display: flex;
+    justify-content: center;
 }
