@@ -10,158 +10,180 @@
     <link rel="stylesheet" href="index.css">
 
 </head>
-
 <body>
 
-<header>
+<nav class="top-nav">
+    <h2 class="logo">Eda U.</h2>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <ul id="navLinks">
+        <li><a href="#about">Over mij</a></li>
+        <li><a href="#projects">Projecten</a></li>
+        <li><a href="#facts">Weetjes</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <nav class="top-nav">
+<section class="hero">
+    <img src="" alt="Foto van Eda" class="hero-foto">
 
-        <h2 class="logo">Eda U.</h2>
+    <h1>Hallo, ik ben Eda!</h1>
 
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#facts">Fun Facts</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <p>
+        Ik ben een creatieve designer en front-end developer die houdt van
+        kleurrijke interfaces en het creëren van digitale ervaringen
+        waar mensen plezier aan beleven.
+    </p>
+</section>
 
-    </nav>
+<section id="about" class="about">
+    <h2>Over mij</h2>
 
-    <section class="hero">
+    <p>
+        Hallo! Mijn naam is Eda Ulastepe. Ik ben 18 jaar en afkomstig uit
+        Turkije. Ik ben een creatieve maker die graag met kleuren en ideeën
+        speelt. Ik heb gekozen voor Digitale Vormgeving omdat ik mijn
+        creativiteit wil combineren met technologie en mezelf verder wil
+        ontwikkelen.
+    </p>
+</section>
 
-        <img src="" alt="foto" class="hero-foto">
+<section class="why-me">
+    <h2>Waarom Digitale Vormgeving?</h2>
 
-        <h1>Hallo, Ik ben Eda!</h1>
+    <p>
+        Ik hou ervan om websites en interfaces te ontwerpen die zowel mooi
+        als gebruiksvriendelijk zijn. Ik ben graag creatief bezig, bijvoorbeeld
+        door te tekenen met papier en potlood of digitaal te werken in
+        verschillende programma's.
+    </p>
 
-        <p>
-            Creative designer and front-end developer who loves colorful
-            interfaces and creating digital experiences that people enjoy.
-        </p>
+    <h3>Waarom ben ik een goede designer?</h3>
 
-    </section>
+    <p>
+        Ik ben creatief, leer graag nieuwe technieken en probeer mezelf
+        voortdurend te verbeteren. Ik sta open voor nieuwe ideeën en vind het
+        leuk om verschillende stijlen en technieken uit te proberen.
+    </p>
+</section>
 
-</header>
+<section id="projects" class="projects-section">
+    <h2>Mijn projecten</h2>
 
-<main>
+    <div class="projects-container">
 
-    <section id="about" class="about">
+        <article class="project-card">
+            <h2>Schoolproject</h2>
+            <h3>UI Design</h3>
 
-        <h2>About Me</h2>
+            <p>
+                Voor dit project moesten we in groep een website maken.
+                Mijn rol was het ontwerpen van de reviews en de footer.
+                We hebben zowel een mobiele als een desktopversie gemaakt.
+            </p>
 
-        <p>
-            Hallo! Mijn naam is Eda Ulastepe, ik ben 18 jaar en afkomstig uit Turkije.
-            Ik ben een creatieve maker die graag met kleuren en ideeën speelt.
-            Ik koos voor Digitale Vormgeving omdat ik creativiteit wil combineren
-            met technologie en mezelf verder wil ontwikkelen.
-        </p>
+            <img
+                    src="assets/taskflow review desktop.jpg"
+                    alt="Taskflow review desktopversie"
+            >
 
-    </section>
+            <img
+                    src="assets/taskflow footer desktop.jpg"
+                    alt="Taskflow footer desktopversie"
+            >
 
-    <section class="why-me">
+            <img
+                    src="assets/taskflow review mobile.jpg"
+                    alt="Taskflow review mobiele versie"
+            >
 
-        <h2>Why Digital Design?</h2>
+            <img
+                    src="assets/taskflow footer mobile.jpg"
+                    alt="Taskflow footer mobiele versie"
+            >
+        </article>
 
-        <p>
-            Ik hou ervan om websites en interfaces te ontwerpen die zowel mooi
-            als gebruiksvriendelijk zijn. Ik ben ook altijd creatief bezig zoals teken met papier of potlood of digital bezig zijn op andere apps
-        </p>
+        <article class="project-card">
+            <h2>Persoonlijk project</h2>
+            <h3>Just Russel</h3>
 
-        <h3>Waarom ben ik een goede designer?</h3>
+            <p>
+                Voor dit project heb ik een 3D-kartonnen stand, verpakking
+                en postkaart gemaakt voor Just Russel. De postkaart en
+                verpakking heb ik ontworpen in Adobe Illustrator.
+            </p>
 
-        <p>
-            Ik ben creatief, leer graag nieuwe technieken en probeer mezelf
-            voortdurend te verbeteren.
-        </p>
+            <img
+                    src="assets/karton-mockup.jpg"
+                    alt="Kartonnen Just Russel mock-up"
+            >
 
-    </section>
+            <img
+                    src="assets/verpakking 1.jpg"
+                    alt="Just Russel verpakking"
+            >
 
-    <section id="projects" class="projects-section">
+            <img
+                    src="assets/verpakking 2.jpg"
+                    alt="Tweede Just Russel verpakking"
+            >
 
-        <h2>My Projects</h2>
+            <img
+                    src="assets/verpakking-mockup.jpg"
+                    alt="Just Russel verpakking mock-up"
+            >
+        </article>
 
-        <br>
-        <div class="projects-container">
+        <article class="project-card">
+            <h2>Persoonlijk project</h2>
+            <h3>Bel Chicken</h3>
 
+            <p>
+                Voor dit project heb ik een conceptdesign gemaakt voor
+                Bel Chicken. Het is een menu gericht op studenten, omdat
+                veel studenten met een beperkt budget toch lekker en
+                betaalbaar willen eten.
+            </p>
 
-            <article class="project-card">
+            <img
+                    src="assets/concept-poster.jpg"
+                    alt="Bel Chicken conceptposter"
+            >
 
-                <h2>School project</h2>
-                <br>
-                <h3>Project UI design</h3>
+            <img
+                    src="assets/billboard-mockup.jpg"
+                    alt="Bel Chicken billboard mock-up"
+            >
 
-                <br>
+            <img
+                    src="assets/gsm-mockup.jpg"
+                    alt="Bel Chicken gsm-mock-up"
+            >
+        </article>
 
-                <p>
-                    We moesten in een groep een website maken. Mijn rol was om het reviews en de footer te maken. We hebben een mobile en desktop versie gemaakt.
-                </p>
+    </div>
+</section>
 
-                <br>
-                <img src="assets/taskflow review desktop.jpg" alt="Taskflow Review Desktop">
-                <img src="assets/taskflow footer desktop.jpg" alt="Taskflow Footer Desktop">
-                <img src="assets/taskflow review mobile.jpg" alt="taskflow Review Mobile">
-                <img src="assets/taskflow footer mobile.jpg" alt="Taskflow Footer Mobile">
+<section id="facts" class="facts">
+    <h2>Andere weetjes</h2>
 
-            </article>
+    <ul>
+        <li>🎨 Ik hou van kleurrijke ontwerpen.</li>
+        <li>☕ Ik kies elke dag liever thee dan koffie.</li>
+        <li>🎮 Ik ben een echte gamer! Ik speel onder andere Valorant en Roblox.</li>
+        <li>🌸 Ik hou van tekenen en digitale kunst.</li>
+    </ul>
+</section>
 
-            <article class="project-card">
+<section id="contact">
+    <h2>Neem contact op!</h2>
 
-                <h2>Personal Project</h2>
-                <br>
-                <h3>Just Russel</h3>
-                <br>
-                <p>
-                    Ik heb een 3D karton stand, verpakking en postcard gemaakt voor Just Russel. Het postcard en verpakking heb ik op Adobe Illustrator gemaakt.
-                </p>
-                <br>
-                <img src="assets/karton-mockup.jpg" alt="karton mockup">
-                <img src="assets/verpakking 1.jpg" alt="Verpakking JR">
-                <img src="assets/verpakking 2.jpg" alt="verpakking JR2">
-                <img src="assets/verpakking-mockup.jpg" alt="verpakking mockup">
-            </article>
-            <article class="project-card">
+    <p>E-mail: edaulastepe@gmail.com</p>
 
-                <h2>Personal Project</h2>
-                <br>
-                <h3>Bel chicken</h3>
-                <br>
-                <p>
-                    Ik heb een concept design gemaakt voor bel chicken. Het is een menu voor studenten omdat meest van ons studenten zijn op een budget en willen iets goed koop
-                </p>
-                <br>
-                <img src="assets/concept-poster.jpg" alt="concept-poster">
-                <img src="assets/billboard-mockup.jpg" alt="billboard-mockup">
-                <img src="assets/gsm-mockup.jpg" alt="gsm-mockup">
-            </article>
-        </div>
-
-    </section>
-
-    <section id="facts" class="facts">
-
-        <h2>Fun Facts</h2>
-
-        <ul>
-            <li>🎨 I love colorful designs.</li>
-            <li>☕ I would choose tea over coffee any day</li>
-            <li>🎮 Gamer 4 ever! i play games such as Valorant and Roblox</li>
-            <li>🌸 I enjoy drawing and digital art.</li>
-        </ul>
-
-    </section>
-
-</main>
-
-<footer id="contact">
-
-    <h2>Let's Connect!</h2>
-
-    <p>Email: edaulastepe@gmail.com</p>
-    <a href="assets/privacy-policy.txt" target="_blank">Privacy Policy</a>
-
-</footer>
+    <a href="assets/privacy-policy.txt" target="_blank">
+        Privacybeleid
+    </a>
+</section>
 
 <script src="index.js"></script>
-
 </body>
 </html>
