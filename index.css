@@ -122,34 +122,6 @@ section {
     line-height: 1.6;
 }
 
-/* Facts */
-
-.facts ul {
-    margin: 24px auto 0;
-    padding: 0 0 0 20px;
-    max-width: 420px;
-    border-left: 3px solid #96c1c5;
-    list-style: none;
-}
-
-.facts li {
-    font-family: 'Chelsea Market', sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 18px;
-    color: #694a47;
-    margin-bottom: 16px;
-}
-
-.facts li:last-child {
-    margin-bottom: 0;
-}
-
-.facts h2{
-    text-align: center;
-}
-
 /* Projects */
 
 .projects-section {
@@ -216,6 +188,34 @@ section {
     display: block;
 }
 
+/* Facts */
+
+.facts ul {
+    margin: 24px auto 0;
+    padding: 0 0 0 20px;
+    max-width: 420px;
+    border-left: 3px solid #96c1c5;
+    list-style: none;
+}
+
+.facts li {
+    font-family: 'Chelsea Market', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #694a47;
+    margin-bottom: 16px;
+}
+
+.facts li:last-child {
+    margin-bottom: 0;
+}
+
+.facts h2{
+    text-align: center;
+}
+
 /* Contact */
 
 #contact {
@@ -278,7 +278,6 @@ section {
     .top-nav ul a:hover {
         background-color: #e0d4c3;
     }
-
 
     .logo {
         font-size: 1.6rem;
