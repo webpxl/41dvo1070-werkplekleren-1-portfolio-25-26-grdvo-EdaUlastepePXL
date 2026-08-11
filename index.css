@@ -123,18 +123,29 @@ section {
 
 /* Facts */
 
-.facts {
-    text-align: center;
-}
-
 .facts ul {
-    margin-top: 20px;
-    list-style-position: inside;
+    margin: 24px auto 0;
+    padding: 0 0 0 20px;
+    max-width: 420px;
+    border-left: 3px solid #96c1c5;
+    list-style: none;
 }
 
 .facts li {
-    font-size: 20px;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #694a47;
+    margin-bottom: 16px;
+}
+
+.facts li:last-child {
+    margin-bottom: 0;
+}
+
+.facts h2{
+    text-align: center;
 }
 
 /* Projects */
